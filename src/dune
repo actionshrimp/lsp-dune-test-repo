@@ -1,0 +1,3 @@
+(library
+ (name outer)
+ (libraries inner-a))
