@@ -1,4 +1,0 @@
-(library
- (name inner_b)
- (public_name inner-b)
- (libraries base64))
