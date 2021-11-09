@@ -18,3 +18,8 @@ At this point ocaml-lsp doesn't seem to like symbols in `vendor/inner-a/src/inne
 However, the Inner_a reference from `src/lib.ml` functions correctly.
 
 If you rename `vendor/inner-a/dune-workspace` to `dune-workspace.bak`, restart the LSP process, and run `dune build` again, everything seems to function as expected.
+
+
+## Better fix
+
+Add another `dune-workspace` at the repo root.
